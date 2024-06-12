@@ -6,17 +6,17 @@ settings:
 
 devDependencies:
   '@cloudflare/workers-types':
-    specifier: ^2.0.0
-    version: 2.0.0
+    specifier: ^4.20240605.0
+    version: 4.20240605.0
   prettier:
-    specifier: ^2.0.5
-    version: 2.0.5
+    specifier: ^2.8.8
+    version: 2.8.8
   typescript:
-    specifier: ^3.9.5
-    version: 3.9.5
+    specifier: ^3.9.10
+    version: 3.9.10
   wrangler:
-    specifier: ^3.60.0
-    version: 3.60.0(@cloudflare/workers-types@2.0.0)
+    specifier: ^3.60.2
+    version: 3.60.2(@cloudflare/workers-types@4.20240605.0)
 
 packages:
 
@@ -72,8 +72,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@2.0.0:
-    resolution: {integrity: sha512-SFUPQzR5aV2TBLP4Re+xNX5KfAGArcRGA44OLulBDnfblEf3J+6kFvdJAQwFhFpqru3wImwT1cX0wahk6EeWTw==}
+  /@cloudflare/workers-types@4.20240605.0:
+    resolution: {integrity: sha512-zJw4Q6CnkaQ5JZmHRkNiSs5GfiRgUIUL8BIHPQkd2XUHZkIBv9M9yc0LKEwMYGpCFC+oSOltet6c9RjP9uQ99g==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:
@@ -627,8 +627,8 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /prettier@2.0.5:
-    resolution: {integrity: sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==}
+  /prettier@2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -726,8 +726,8 @@ packages:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
     dev: true
 
-  /typescript@3.9.5:
-    resolution: {integrity: sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==}
+  /typescript@3.9.10:
+    resolution: {integrity: sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
@@ -771,8 +771,8 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20240605.0
     dev: true
 
-  /wrangler@3.60.0(@cloudflare/workers-types@2.0.0):
-    resolution: {integrity: sha512-8lW4E7VAhCVXy7AV7Vom2BsyjekIt15Aa8jnBLsfE2CxalzWQzx49BK25hOYhjHQT4GqBXeoNOZ43FrMQ+SUUA==}
+  /wrangler@3.60.2(@cloudflare/workers-types@4.20240605.0):
+    resolution: {integrity: sha512-lGIuxzaVm8W0ddzwzwZtx3kL/0PUGMZfKBayUzcMq5wGk88aE9UA2lYeGF51EHVXX2yBbnw7Ltw2eXsx2ixNOQ==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -782,7 +782,7 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.2
-      '@cloudflare/workers-types': 2.0.0
+      '@cloudflare/workers-types': 4.20240605.0
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
